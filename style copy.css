@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 1vh auto;
+    padding: 5vh 2vw;
+    background-color: #5cd6ff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.sun {
+  display: flex;
+  background-color: #f7ff0f;
+  margin: 12hw 0vw;
+  color: #f7ff0f;
+  margin-bottom: 100px;
+  max-width: 50px;
+}
+.head, .Secbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color: #51912f;
+    margin-left: 40px;
+    max-width: 100px;
+    color: #51912f;
+}
+.bodyyody{
+  background-color: #51912f;
+  color: #51912f;
+  justify-content:flex-start;
+     margin: 0vh 12vw;
+      max-width: 400px;
+      margin-left: 80px;
+}
+.yodyyody{
+  display: flex;
+  background-color: #51912f;
+  color: #51912f;
+  justify-content: flex-end;
+     margin-top: -180px;
+      max-width: 600px;
+      margin-left: 300px;
+}
+.tongue {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+    background-color: #e35f73;
+    color: #e35f73 ;
+     margin: 1vh -1vw;
+     margin-top: -150px;
+     margin-bottom: 200px;
+      max-width: 55px;
+}
+.ground{
+  background-color: #915730;
+  color: #915730;
+  margin: 6vh -2vw;
+  margin-bottom: -100px;
+}
+
+}
+
+.nested .inner {
+    padding: 2vw;
+}
+
+.content > .box {
+    margin: 1vh 0;
+}
+
+.inner p {
+    margin-top: 1vh;
+
